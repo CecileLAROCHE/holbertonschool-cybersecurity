@@ -1,2 +1,1 @@
-# Linux Fundamentals & Security Baseline
-
+# Linux Security

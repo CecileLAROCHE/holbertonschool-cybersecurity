@@ -110,3 +110,9 @@ Toujours garder:
 
 ## ⚠️ Script utile:
 ```restart_lab.sh``` permet de relancer rapidement après crash ou fermeture terminal
+
+##  Se connecter à une machine distante:  
+```ssh <user>@<host>```
+
+pour envoyer dessus : 
+```scp *.sh <user>@<host>:~```

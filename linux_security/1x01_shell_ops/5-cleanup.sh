@@ -4,7 +4,7 @@ while read -r user
 do
     if id "$user" &>/dev/null
     then
-        passwd -l "$user"
+        passwd -L "$user"
         echo "User $user locked"
     else
         echo "User $user not found"

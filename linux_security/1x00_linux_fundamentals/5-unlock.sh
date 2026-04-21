@@ -1,2 +1,2 @@
 #!/bin/bash
-chattr -i "$1" && unlink "$1"
+chattr -i "$1" && rm "$1" && ls -l /home/larry/

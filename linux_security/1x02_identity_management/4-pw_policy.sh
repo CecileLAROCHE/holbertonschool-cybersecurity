@@ -7,7 +7,7 @@ if dpkg -s "$1" > /dev/null 2>&1
 then 
     echo "libpam-pwquality déjà installer"
 else
-    apt -get install -y "$1"
+    apt-get install -y "$1"
 fi
 
 if grep -q "pam_pwquality.so" "$2"

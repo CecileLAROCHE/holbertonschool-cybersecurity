@@ -1,2 +1,2 @@
 #!/bin/bash
-ss -tl | awk '{print $4}' | awk -F ':' '{print $2}'
+ss -lnt4 | awk '{print $4}' | awk -F ':' '{print $2}'

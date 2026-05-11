@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -e --sort=-cpu -o pid=,comm= | head -n 1
+ps -eo pid=,comm= --sort=-cpu | head -n 1

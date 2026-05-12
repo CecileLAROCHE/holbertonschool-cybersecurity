@@ -1,2 +1,2 @@
 #!/bin/bash
-lsof -iTCP74 :"$1"
+lsof -iTCP :"$1"
